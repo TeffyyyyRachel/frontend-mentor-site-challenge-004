@@ -38,15 +38,15 @@ ul {
 }
 
 .main {
-    width: 900px;
+    width: 950px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 60px;
     color: var(--White);
 }
 .main-section {
     display: flex;
-    gap: 30px;
+    gap: 25px;
     justify-content: space-between;
     text-align: justify;
     align-items: center;
@@ -92,9 +92,9 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: var(--Very-Dark-Magenta);
-    padding: 20px;
+    padding: 25px;
     height: 150px;
-    width: 240px;
+    width: 300px;
     justify-content: center;
     border-radius: 10px;
 }
@@ -108,22 +108,30 @@ ul {
 }
 .main-section-comments p {
     font-weight: 500;
+    line-height: 18px;
 }
 .main-section-comments-perfil {
     display: flex;
     align-items: center;
     width: 150px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+.main-section-comments li {
+    line-height: 18px;
 }
 .main-section-comments img {
     height: 40px;
     width: 40px;
     border-radius: 100%;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .main-section-comments-names {
     font-weight: 700;
 }
 .verified-buyer {
     color: var(--Soft-Pink);
+}
+
+@media (max-width: 375px) {
+    
 }
