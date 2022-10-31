@@ -33,7 +33,7 @@ body {
     place-content: center;
     font-size: 15px;
     font-family: var(--font);
-    
+    background: url('images/bg-pattern-top-desktop.svg') no-repeat, url('images/bg-pattern-bottom-desktop.svg');
 }
 ul {
     list-style: none;
