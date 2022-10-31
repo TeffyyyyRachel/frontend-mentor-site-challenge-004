@@ -33,6 +33,7 @@ body {
     place-content: center;
     font-size: 15px;
     font-family: var(--font);
+    
 }
 ul {
     list-style: none;
